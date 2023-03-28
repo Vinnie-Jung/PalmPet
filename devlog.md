@@ -15,3 +15,15 @@
 7. Criação do arquivo README do projeto para documentar futuramente, bem como a adição deste documento ("devlog.md") para a constante anotação das mudanças no projeto.
 
 8. Criada uma pasta "img" para armazenar todas as imagens utilizadas no projeto. Efetuada a mudança de caminho das imagens já existentes, inclusive no arquivo "app.json".
+
+9. Instalada a biblioteca "react-native-animatable".
+
+10. Desenvolvida a estrutura da página de "Welcome".
+
+11. Adicionada a pasta "styles" dentro de "assets" para guardar a estilização das páginas.
+
+12. Criada a estilização da página de "Welcome".
+
+13. Criada a pasta "LogIn" em "views".
+
+14. Adicionado o ícone passado no e-mail do teste no projeto.
