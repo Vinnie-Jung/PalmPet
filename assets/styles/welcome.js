@@ -15,7 +15,7 @@ export default StyleSheet.create({
         width: '60%',
         height: '50%',
         resizeMode: 'cover',
-        borderRadius: 1000
+        borderRadius: 50
     },
     minorContainer: {
         flex: 1.5,
@@ -31,19 +31,19 @@ export default StyleSheet.create({
         marginTop: 28,
         marginBottom: 12,
         alignSelf: 'center',
-        color: '#2E2E2E'
+        color: '#2E2E2E',
     },
     text: {
         color: '#2E2E2E',
         alignSelf: 'center',
         fontWeight: 'bold',
-        paddingVertical: 15
+        paddingVertical: 15,
     },
     instruction: {
         alignSelf: 'center',
         fontWeight: 'bold',
         color: '#B3B3B3',
-        marginTop: 14
+        marginTop: 14,
     },
     button: {
         position: 'absolute',
