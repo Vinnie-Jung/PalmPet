@@ -31,5 +31,3 @@
 15. Importada a fonte Monserrat do Google Fonts.
 
 16. Adicionadas as bibliotecas "react-native-gesture-handler", "expo-font" e "expo-app-loading".
-
-17. 
