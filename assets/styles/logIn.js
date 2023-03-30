@@ -13,7 +13,7 @@ export default StyleSheet.create({
     },
     formTitle: {
         marginTop: 40,
-        fontFamily: 'Montserrat_700Bold',
+        fontFamily: 'OpenSans_700Bold',
         alignSelf: 'center',
         fontSize: 36,
         color: '#FFFFFF',

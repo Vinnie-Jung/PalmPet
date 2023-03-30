@@ -6,6 +6,7 @@ import Routes from './assets/routes/index';
 import * as SplashScreen from 'expo-splash-screen';
 import * as Font from 'expo-font';
 import { Montserrat_400Regular, Montserrat_700Bold } from '@expo-google-fonts/montserrat';
+import { OpenSans_700Bold } from '@expo-google-fonts/open-sans';
 
 export default function App() {
   const [appIsReady, setAppIsReady] = useState(false);
@@ -15,15 +16,20 @@ export default function App() {
     (async () => {
       try {
         await SplashScreen.preventAutoHideAsync();
-        await Font.loadAsync({ Montserrat_400Regular, Montserrat_700Bold });
+        await Font.loadAsync({
+          Montserrat_400Regular,
+          Montserrat_700Bold,
+          OpenSans_700Bold
+      });
       } catch {
-        // handle error
+        console.log("Fontes não carregadas!");
       } finally {
         setAppIsReady(true);
       }
     })();
   }, []);
 
+  // Verifica se as fontes foram carregadas
   const onLayout = useCallback(() => {
     if (appIsReady) {
       SplashScreen.hideAsync();
