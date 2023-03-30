@@ -9,6 +9,12 @@ import {
     TouchableOpacity
 } from 'react-native';
 
+/*
+ *  +-----------------------------------+
+ *  | Estrutura da tela de login.       |
+ *  +-----------------------------------+
+*/ 
+
 export default function LogIn() {
     const navigation = useNavigation();
     return (

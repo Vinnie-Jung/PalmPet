@@ -8,6 +8,12 @@ import {
     TouchableOpacity
 } from 'react-native';
 
+/*
+ *  +-----------------------------------+
+ *  | Estrutura da tela de boas vindas. |
+ *  +-----------------------------------+
+*/ 
+
 export default function Welcome() {
     const navigation = useNavigation();
     return (

@@ -1,5 +1,11 @@
 import { StyleSheet } from 'react-native';
 
+/*
+ *  +--------------------------------------+
+ *  | Estilização da tela de boas vindas.  |
+ *  +--------------------------------------+
+*/ 
+
 export default StyleSheet.create({
     mainContainer: {
         flex: 1,
@@ -31,7 +37,7 @@ export default StyleSheet.create({
         marginBottom: 12,
         alignSelf: 'center',
         color: '#2E2E2E',
-        fontFamily: 'Montserrat_700Bold'
+        fontFamily: 'OpenSans_700Bold'
     },
     text: {
         color: '#2E2E2E',

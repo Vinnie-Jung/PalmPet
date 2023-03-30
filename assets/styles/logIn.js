@@ -1,5 +1,10 @@
 import { StyleSheet } from 'react-native';
-//import { useFonts, Montserrat_400Regular, Montserrat_700Bold } from '@expo-google-fonts/montserrat';
+
+/*
+ *  +-----------------------------------+
+ *  | Estilização da tela de login.     |
+ *  +-----------------------------------+
+*/ 
 
 export default StyleSheet.create({
     mainContainer: {
