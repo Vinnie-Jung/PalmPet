@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import * as Animatable from 'react-native-animatable';
 import styles from '../../styles/logIn';
 import { useNavigation } from '@react-navigation/native';
@@ -8,6 +8,7 @@ import {
     TextInput,
     TouchableOpacity
 } from 'react-native';
+import inputLogIn from './input';
 
 /*
  *  +-----------------------------------+
@@ -17,6 +18,18 @@ import {
 
 export default function LogIn() {
     const navigation = useNavigation();
+    const [formInputs, setFormInputs] = useState(inputLogIn);
+    console.log(formInputs);
+
+    function handleInputChange(inputName, text) {
+        if (setFormInputs) {
+            setFormInputs({
+                ...formInputs,
+                [inputName]: text,
+              });
+        }
+    }
+
     return (
         <View style = {styles.mainContainer}>
             <Animatable.View animation = 'fadeInLeft' delay = {500} style = {styles.formContainer}>
@@ -26,11 +39,22 @@ export default function LogIn() {
             <Animatable.View animation = 'fadeInUp' style = {styles.form}>
             <Text style = {styles.formInstruction}>Preencha os campos para acessar sua conta.</Text>
                 <Text style = {styles.formText}>E-mail:</Text>
-                <TextInput placeholder = 'exemplo@email.com' style = {styles.formInput}/>
-                <Text style = {styles.formText}>Senha:</Text>
-                <TextInput placeholder = '********' style = {styles.formInput}/>
+                <TextInput
+                placeholder = 'exemplo@email.com'
+                style = {styles.formInput}
+                value = {formInputs.email}
+                onChangeText = {(text) => handleInputChange('email', text)}
+                />
 
-                <TouchableOpacity style = {styles.buttonLogIn} onPress = { () => navigation.navigate('Home')}>
+                <Text style = {styles.formText}>Senha:</Text>
+                <TextInput
+                placeholder = '********'
+                style = {styles.formInput}
+                value = {formInputs.password}
+                onChangeText = {(text) => handleInputChange('password', text)}
+                />
+
+                <TouchableOpacity style = {styles.buttonLogIn} onPress = { () => navigation.navigate('Home') }>
                     <Text style = {styles.buttonText}>Entrar</Text>
                 </TouchableOpacity>
 
