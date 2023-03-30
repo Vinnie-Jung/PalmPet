@@ -40,6 +40,6 @@
 
 20. Criada a estilização da tela de login.
 
-21. Criada a pasta "SignIn" dentro de "Views".
+21. Criada a pasta "SignUp" dentro de "Views".
 
-22. Adicionado um arquivo index.js na pasta "SignIn".
+22. Adicionado um arquivo index.js na pasta "SignUp".
