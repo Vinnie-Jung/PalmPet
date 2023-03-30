@@ -2,6 +2,12 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Welcome from '../views/Welcome';
 import LogIn from '../views/LogIn';
 
+/*
+ *  +-----------------------------------+
+ *  | Arquivo de rotas.                 |
+ *  +-----------------------------------+
+*/ 
+
 const Stack = createNativeStackNavigator();
 
 export default function Routes() {

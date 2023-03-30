@@ -31,3 +31,15 @@
 15. Importada a fonte Monserrat do Google Fonts.
 
 16. Adicionadas as bibliotecas "react-native-gesture-handler", "expo-font" e "expo-app-loading".
+
+17. Lógica de carregamento e validação de fontes refatorada.
+
+18. Importada a fonte Open Sans do Google Fonts.
+
+19. Criada a estrutura da tela de login.
+
+20. Criada a estilização da tela de login.
+
+21. Criada a pasta "SignIn" dentro de "Views".
+
+22. Adicionado um arquivo index.js na pasta "SignIn".
