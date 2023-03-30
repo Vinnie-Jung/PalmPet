@@ -1,39 +1,48 @@
 import 'react-native-gesture-handler';
-import React from 'react';
-import { StatusBar } from 'react-native';
+import React, { useState, useEffect, useCallback } from 'react';
+import { StatusBar, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import Routes from './assets/routes/index';
-import { useFonts, Montserrat_400Regular } from '@expo-google-fonts/montserrat';
-import AppLoading from 'expo-app-loading';
-import { loadAsync } from 'expo-font';
+import * as SplashScreen from 'expo-splash-screen';
+import * as Font from 'expo-font';
+import { Montserrat_400Regular, Montserrat_700Bold } from '@expo-google-fonts/montserrat';
 
 export default function App() {
-  let [fontsLoaded] = useFonts({ Montserrat_400Regular });
+  const [appIsReady, setAppIsReady] = useState(false);
 
-  const loadFont = async () => {
-    await loadAsync({
-      Montserrat_400Regular: require('./assets/fonts/Montserrat-VariableFont_wght.ttf'),
-    });
-    setFontLoaded(true);
-  }
+  // Carregamento da fonte
+  useEffect(() => {
+    (async () => {
+      try {
+        await SplashScreen.preventAutoHideAsync();
+        await Font.loadAsync({ Montserrat_400Regular, Montserrat_700Bold });
+      } catch {
+        // handle error
+      } finally {
+        setAppIsReady(true);
+      }
+    })();
+  }, []);
 
-  if (!fontsLoaded) {
-    return (
-      <AppLoading
-        startAsync={loadFont}
-        onFinish={() => {}}
-        onError={(error) => console.warn(error)}
-      />
-    );
+  const onLayout = useCallback(() => {
+    if (appIsReady) {
+      SplashScreen.hideAsync();
+    }
+  }, [appIsReady]);
+
+  if (!appIsReady) {
+    return null;
   }
 
   return (
-    <NavigationContainer>
-      <StatusBar
-      backgroundColor = '#A82CBF'
-      barStyle = 'light-content'
-      />
-      <Routes/>
+    <View onLayout = {onLayout} style = {{ flex: 1 }}>
+      <NavigationContainer>
+        <StatusBar
+        backgroundColor = '#A82CBF'
+        barStyle = 'light-content'
+        />
+        <Routes/>
     </NavigationContainer>
+    </View>
   );
 };

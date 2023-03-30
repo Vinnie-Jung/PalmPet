@@ -27,23 +27,24 @@ export default StyleSheet.create({
     },
     title: {
         fontSize: 28,
-        fontWeight: 'bold',
         marginTop: 28,
         marginBottom: 12,
         alignSelf: 'center',
         color: '#2E2E2E',
+        fontFamily: 'Montserrat_700Bold'
     },
     text: {
         color: '#2E2E2E',
         alignSelf: 'center',
-        fontWeight: 'bold',
         paddingVertical: 15,
+        paddingHorizontal: 15,
+        fontFamily: 'Montserrat_400Regular'
     },
     instruction: {
         alignSelf: 'center',
-        fontWeight: 'bold',
         color: '#B3B3B3',
         marginTop: 14,
+        fontFamily: 'Montserrat_400Regular'
     },
     button: {
         position: 'absolute',
@@ -60,6 +61,7 @@ export default StyleSheet.create({
     buttonText: {
         color: '#FFFFFF',
         fontWeight: 'bold',
-        fontSize: 20
+        fontSize: 20,
+        fontFamily: 'Montserrat_400Regular'
     }
 });
