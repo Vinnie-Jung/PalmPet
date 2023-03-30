@@ -43,3 +43,15 @@
 21. Criada a pasta "SignUp" dentro de "Views".
 
 22. Adicionado um arquivo index.js na pasta "SignUp".
+
+23. Adicionada a rota para SignUp.
+
+24. Feita a estruturação da página de cadastro.
+
+25. Implementada a estilização da página de cadastro.
+
+26. Criada uma lógica simples para leitura e validação dos inputs na tela de cadastro.
+
+27. Criados alertas para os casos de dados inválidos ou sucesso na criação de uma conta.
+
+28. Modularização das funções handleRegister e defaultInput na tela de cadastro.
