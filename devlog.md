@@ -55,3 +55,5 @@
 27. Criados alertas para os casos de dados inválidos ou sucesso na criação de uma conta.
 
 28. Modularização das funções handleRegister e defaultInput na tela de cadastro.
+
+29. Substituídos os arquivos PNG favicon, adaptive-icon, icon e splash por novos PNGs com os mesmos nomes.
