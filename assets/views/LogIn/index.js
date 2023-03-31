@@ -9,6 +9,7 @@ import {
     TouchableOpacity
 } from 'react-native';
 import inputLogIn from './input';
+import handleLogin from './handleLogin';
 
 /*
  *  +-----------------------------------+
@@ -16,10 +17,9 @@ import inputLogIn from './input';
  *  +-----------------------------------+
 */ 
 
-export default function LogIn() {
+export default function LogIn({ route }) {
     const navigation = useNavigation();
     const [formInputs, setFormInputs] = useState(inputLogIn);
-    console.log(formInputs);
 
     function handleInputChange(inputName, text) {
         if (setFormInputs) {
@@ -50,11 +50,12 @@ export default function LogIn() {
                 <TextInput
                 placeholder = '********'
                 style = {styles.formInput}
+                secureTextEntry
                 value = {formInputs.password}
                 onChangeText = {(text) => handleInputChange('password', text)}
                 />
 
-                <TouchableOpacity style = {styles.buttonLogIn} onPress = { () => navigation.navigate('Home') }>
+                <TouchableOpacity style = {styles.buttonLogIn} onPress = { () => handleLogin(route, formInputs, navigation) }>
                     <Text style = {styles.buttonText}>Entrar</Text>
                 </TouchableOpacity>
 
