@@ -57,3 +57,13 @@
 28. Modularização das funções handleRegister e defaultInput na tela de cadastro.
 
 29. Substituídos os arquivos PNG favicon, adaptive-icon, icon e splash por novos PNGs com os mesmos nomes.
+
+30. Terminada a lógica para validação de login a partir de uma conta cadastrada.
+
+31. Criado um arquivo admin.js dentro da pasta "views/LogIn" contendo os dados de uma conta pré-registrada (para facilitar os testes)
+
+32. Adicionada a lógica para a validação de login pelo admin.
+
+33. Função de validação de login modularizada para o arquivo handleLogin.js.
+
+34. Validação de admin modularizada para adminVal.js.
