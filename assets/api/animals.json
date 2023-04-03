@@ -4,7 +4,7 @@
       "name": "Buddy",
       "age": "2 anos",
       "img": "https://static1.patasdacasa.com.br/articles/5/16/5/@/376-saiba-tudo-sobre-uma-das-racas-de-cachor-article_media_mobile-1.jpg",
-      "description": "Buddy é um cão muito brincalhão e adora correr no parque.",
+      "description": "Buddy é um cachorro Golden Retriever, uma raça muito popular e amigável. Com pelagem dourada e olhos castanhos expressivos, Buddy é um cão elegante e simpático. Ele é extremamente leal e afetuoso com seus donos e adora brincar e correr.",
       "phone": "(11) 99999-9999",
       "email": "contato@exemplo.com",
       "categoryId": 1
@@ -14,7 +14,7 @@
       "name": "Luna",
       "age": "3 anos",
       "img": "https://www.fundacion-affinity.org/sites/default/files/el-gato-necesita-tener-acceso-al-exterior.jpg",
-      "description": "Luna é uma gatinha muito fofa e adora dormir no colo.",
+      "description": "Luna é uma gata charmosa e elegante, de pelo cinza e olhos verdes hipnotizantes. Ela é uma felina independente, mas adora receber carinhos e brincadeiras quando está de bom humor.",
       "phone": "(11) 99999-8888",
       "email": "contato@exemplo.com",
       "categoryId": 2
@@ -24,7 +24,7 @@
       "name": "Fred",
       "age": "1 ano",
       "img": "https://coelhodeestimacao.com.br/wp-content/gallery/california/WhatsApp-Image-2018-01-15-at-18.16.43.jpeg",
-      "description": "Fred é um coelho muito simpático e adora cenouras.",
+      "description": "Fred é um coelho aventureiro, sempre pulando e explorando o mundo ao seu redor. Com suas orelhas longas e pelagem macia na cor branca, ele é uma gracinha de se admirar. Adora cenouras e ração, mas também não dispensa uma folha de alface fresquinha.",
       "phone": "(47) 99999-7777",
       "email": "contato@exemplo.com",
       "categoryId": 3
@@ -34,7 +34,7 @@
         "name": "Bob",
         "age": "1 mês",
         "img": "http://2.bp.blogspot.com/-wrr3xPNiVwU/UngUGznNIwI/AAAAAAAAFhI/xbnO_88yrrU/s1600/peixe-palhaco-3.jpg",
-        "description": "Bob é um peixe muito calmo e ama aquários coloridos",
+        "description": "Bob é um peixe palhaço muito engraçado e simpático. Com suas listras laranjas e brancas, ele chama a atenção de todos os que o observam em seu aquário. Ele é muito ágil e adora nadar entre as plantas e pedras do aquário, sempre buscando novas aventuras.",
         "phone": "(31) 98888-8888",
         "email": "contato@exemplo.com",
         "categoryId": 5
@@ -44,7 +44,7 @@
         "name": "Tom",
         "age": "6 meses",
         "img": "https://www.tiendanimal.es/articulos/wp-content/uploads/2018/04/gato-bosque-noruega.jpg",
-        "description": "Tom é um gato muito carinhoso e afetuoso.",
+        "description": "Tom é um gato doméstico com pelagem beje e branca. Ele é um felino muito independente e curioso, adora explorar cada canto da casa e observar tudo ao seu redor. Tom é muito inteligente e sabe como se comunicar com seus donos de forma carinhosa e brincalhona.",
         "phone": "(11) 90000-1111",
         "email": "contato@exemplo.com",
         "categoryId": 2
@@ -54,7 +54,7 @@
         "name": "Zeca",
         "age": "1 ano",
         "img": "http://upload.wikimedia.org/wikipedia/commons/8/81/Bufo_bufo_03.jpg",
-        "description": "Zeca é um sapo que está sempre de boa na lagoa.",
+        "description": "Zeca é um sapo simpático e curioso. Ele passa seus dias pulando de um lugar para outro, sempre em busca de novas aventuras. Com suas pernas fortes e olhos atentos, ele adora explorar o ambiente ao seu redor e descobrir novos amigos animais.",
         "phone": "(11) 90909-1212",
         "email": "contato@exemplo.com",
         "categoryId": 6
@@ -64,7 +64,7 @@
         "name": "Lola",
         "age": "3 meses",
         "img": "https://blog.cobasi.com.br/wp-content/uploads/2021/04/nomes-para-calopsita-principal.png",
-        "description": "Lola é uma calopsita que adora escalar móveis.",
+        "description": "Lola é uma calopsita encantadora que ama cantarolar e brincar. Com suas penas amarelas brilhantes e sua crista elegante, ela é uma verdadeira joia. Lola é uma ave muito inteligente e adora aprender novos truques e comandos, além de ser extremamente leal a seus donos.",
         "phone": "(11) 97777-6666",
         "email": "contato@exemplo.com",
         "categoryId": 4
@@ -74,7 +74,7 @@
         "name": "Jujuba",
         "age": "1 ano",
         "img": "https://1.bp.blogspot.com/-8e1VJqFv8oc/T6CHKRt2HbI/AAAAAAAABK8/5YexdNhOv3w/s1600/European_Rabbit.jpg",
-        "description": "Jujuba é uma coelha extremamente veloz e energética.",
+        "description": "Jujuba é uma coelha charmosa e elegante. Com sua pelagem cinza e olhos brilhantes, ela adora pular e brincar com seus amigos coelhos. Além disso, é muito esperta e adora uma boa dose de carinho. Sua comida favorita é a ração de coelho, mas também adora algumas folhas de couve para variar.",
         "phone": "(48) 91314-1413",
         "email": "contato@exemplo.com",
         "categoryId": 3
@@ -84,7 +84,7 @@
         "name": "Charlie",
         "age": "8 anos",
         "img": "https://i.pinimg.com/originals/77/40/a7/7740a73df3a7dc2b29b53c15eaa5f1e2.jpg",
-        "description": "Charlie é um papagaio muito conversador e inteligente.",
+        "description": "Charlie é um papagaio muito falante e divertido! Ele adora imitar sons e vozes, desde o latido de um cachorro até a voz da sua pessoa favorita. Seu colorido penacho de penas é um espetáculo à parte, sempre chamando a atenção de todos ao seu redor. ",
         "phone": "(61) 91234-5678",
         "email": "contato@exemplo.com",
         "categoryId": 4
@@ -94,7 +94,7 @@
         "name": "Nina",
         "age": "7 meses",
         "img": "https://f.i.uol.com.br/fotografia/2019/04/02/15542349145ca3be22a93a1_1554234914_3x2_rt.jpg",
-        "description": "Nina é uma cadela super simpática que adora passear.",
+        "description": "Nina é uma adorável cadela da raça Shih Tzu, de porte pequeno e pelagem caramelo. Ela é muito carinhosa e adora estar perto das pessoas, sempre buscando um colo ou um afago. Nina é uma companheira fiel e muito alegre, sempre abanando o rabo e fazendo festa quando alguém chega em casa.",
         "phone": "(51) 98765-4321",
         "email": "contato@exemplo.com",
         "categoryId": 1
