@@ -24,7 +24,7 @@ export default StyleSheet.create({
       paddingHorizontal: 16,
       paddingVertical: 8,
       borderRadius: 16,
-      backgroundColor: '#CB3BE6',
+      backgroundColor: '#FFC31E',
       marginHorizontal: 8,
       marginVertical: 8,
       alignSelf: 'flex-start'

@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, FlatList, TouchableOpacity } from 'react-native';
+import { View, Text, FlatList, TouchableOpacity, Image } from 'react-native';
 import animalData from '../../api/animals.json';
 import categoryData from '../../api/category.json';
 import styles from '../../styles/home';
-import renderItem from './renderItem';
+import { useNavigation } from '@react-navigation/native';
+import getItemCategory from './getItemCategory';
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [filteredAnimals, setFilteredAnimals] = useState([]);
+  const navigation = useNavigation();
 
   // Filtrando os animais com base na categoria selecionada
   useEffect(() => {
@@ -18,6 +20,23 @@ export default function Home() {
       setFilteredAnimals(animalData);
     }
   }, [selectedCategory]);
+
+  // Renderização dos itens da lista
+  const renderItem = ({ item }) => (
+    <TouchableOpacity onPress={() => navigation.navigate('Details', { id: item.id })}  style={styles.item}>
+      <View style={styles.itemContainer}>
+        <Image source={{ uri: item.img }} style={styles.itemImage}/>
+        <View sytle = {styles.infoContainer} >
+          <Text style={styles.itemText}>{item.name}</Text>
+          <View>
+          </View>
+          <Text style={styles.animalAge}>{getItemCategory(item.categoryId)} </Text>
+          <Text style={styles.animalAge}>{item.age} </Text>
+        </View>
+        <Text style={styles.animalId}>{item.id}</Text>
+      </View>
+    </TouchableOpacity>
+  );
 
   return (
     <View style={styles.container}>
