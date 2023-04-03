@@ -75,3 +75,9 @@
 37. Criados dois arquivos .json para simular um banco de dados/API.
 
 38. Adicionados alguns ícones placeholders para a propriedade "img" das categorias.
+
+39. Corrigido o problema da rota Details.
+
+40. Criada a página Details.
+
+41. Estilização de Details adicionada na pasta styles.
