@@ -167,3 +167,10 @@ Listadas abaixo todas as anotações de atividades registradas:
 - [Documentação do Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Documentação do React Native]( https://reactnative.dev/docs/getting-started)
 - [Youtube](https://www.youtube.com/)
+
+
+## Considerações finais
+
+O projeto teve início no dia 27/3/2023 e foi finalizado no dia 04/3/2023, completando uma semana de desenvolvimento e atendendendo a tudo que foi solicitado com excessão do uso do endpoint referido, pois o mesmo estava retornando **"not found"**. Para contornar isso, foram criados arquivos ".json" para armazenarem os dados dos animais e das categorias, simulando, de certa forma, uma API.
+
+Uma boa experiência é o pensamento que se tira desse projeto, pois é mais um recurso novo (React Native) que teve que ser aprendido e estudado para que fosse possível dar continuidade no desenvolvimento do software.
