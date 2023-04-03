@@ -3,6 +3,14 @@
 <p align="center">Um aplicativo de adoção de animais em React Native.</h1>
 
 
+# Índice
+
+1. [Sobre](#sobre)
+2. [Características do projeto](#características-do-projeto)
+3. [Registro de atividades](#registro-de-atividades)
+4. [Fontes de pesquisa](#fontes-de-pesquisa)
+5. [Considerações finais](#considerações-finais)
+
 ## Sobre
 
 Um aplicativo simples de adoção de animais desenvolvido para celulares utilizando Javascript como linguagem principal de desenvolvimento e a biblioteca React Native. O software em questão é, na verdade, um teste passado pela empresa PalmSoft, em que o objetivo é desenvolver uma aplicação mobile que possua uma tela de login, uma página principal (Home Page) e uma tela de detalhamento do item selecionado.
@@ -21,7 +29,7 @@ Para o desenvolvimento foram utilizadas as seguintes tecnologias:
 
 É importante citar também que o modelo de celular utilizado para os testes foi o Galaxy A10s, que possui uma tela de 6,2 polegadas.
 
-## Características
+## Características do projeto
 
 No projeto estão presentes as seguintes telas disponíveis para o usuário:
 
