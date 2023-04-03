@@ -160,6 +160,8 @@ Listadas abaixo todas as anotações de atividades registradas:
 
 41. Estilização de Details adicionada na pasta styles.
 
+42. Mudança na lógica da página Home para que os filtros funcionassem corretamente.
+
 ## Fontes de pesquisa
 
 - [ChatGPT](https://openai.com/blog/chatgpt)
