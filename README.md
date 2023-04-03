@@ -31,7 +31,7 @@ Uma página simples para dar as boas vindas ao usuário. A página contém o log
 
 Imagem:
 
-<img src="./assets/img/ReadmeImages/welcome_page.jpg" alt="Tela de boas vindas.">
+<img src="./assets/img/ReadmeImages/welcome_page.jpg" alt="Tela de boas vindas." width="50%">
 
 ### 2. Tela de login.
 
@@ -41,7 +41,7 @@ A página de login possui dois campos: o de e-mail e o de senha. Para poder entr
 
 Imagem:
 
-<img src="./assets/img/ReadmeImages/login_page.jpg" alt="Tela de login.">
+<img src="./assets/img/ReadmeImages/login_page.jpg" alt="Tela de login." width="50%">
 
 ### 3. Tela de cadastro.
 
@@ -51,7 +51,7 @@ Na página de cadastro é efetuada a criação de uma conta para poder avançar 
 
 Imagem:
 
-<img src="./assets/img/ReadmeImages/register_page.jpg" alt="Tela de cadastro.">
+<img src="./assets/img/ReadmeImages/register_page.jpg" alt="Tela de cadastro." width="50%">
 
 ### 4. Tela principal
 
@@ -59,8 +59,8 @@ Também chamada de Home Page, essa é a tela principal da aplicação em que o u
 
 Imagem:
 
-<img src="./assets/img/ReadmeImages/home_page.jpg" alt="Tela principal.">
-<img src="./assets/img/ReadmeImages/category_page.jpg" alt="Tela principal com categoria selecionada.">
+<img src="./assets/img/ReadmeImages/home_page.jpg" alt="Tela principal." width="50%">
+<img src="./assets/img/ReadmeImages/category_page.jpg" alt="Tela principal com categoria selecionada." width="50%">
 
 ### 5. Tela de detalhamento
 
@@ -68,4 +68,4 @@ Uma tela simples, porém elegante, que expande a imagem do animal e mostra dados
 
 Imagem:
 
-<img src="./assets/img/ReadmeImages/detail_page.jpg" alt="Tela de detalhes.">
+<img src="./assets/img/ReadmeImages/detail_page.jpg" alt="Tela de detalhes." width="50%">
