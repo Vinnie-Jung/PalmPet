@@ -14,7 +14,7 @@ export default function Home() {
   // Filtrando os animais com base na categoria selecionada
   useEffect(() => {
     if (selectedCategory) {
-      const filtered = animalData.filter(animal => animal.category === selectedCategory.id);
+      const filtered = animalData.filter(animal => animal.categoryId === selectedCategory.id);
       setFilteredAnimals(filtered);
     } else {
       setFilteredAnimals(animalData);
@@ -38,6 +38,25 @@ export default function Home() {
     </TouchableOpacity>
   );
 
+  // Filtragem de animais por categoria
+  const handleCategoryFilter = (categoryId) => {
+    if (selectedCategory && selectedCategory.id === categoryId) {
+      setSelectedCategory(null);
+    } else {
+      const category = categoryData.find(category => category.id === categoryId);
+      setSelectedCategory(category);
+    }
+  };
+
+  // Renderização das categorias
+  const renderCategoryItem = ({ item }) => (
+    <TouchableOpacity onPress={() => handleCategoryFilter(item.id)} style={[styles.category, selectedCategory && selectedCategory.id === item.id && styles.selectedCategory]}>
+      <View>
+        <Text style={styles.categoryText}>{item.name}</Text>
+      </View>
+    </TouchableOpacity>
+  );
+
   return (
     <View style={styles.container}>
       <Text style = {styles.title}>Home</Text>
@@ -50,13 +69,7 @@ export default function Home() {
         data={categoryData}
         keyExtractor={item => item.id.toString()}
         horizontal
-        renderItem={({ item }) => (
-          <TouchableOpacity onPress={() => setSelectedCategory(item)} style={styles.category}>
-            <View>
-              <Text style={styles.categoryText} >{item.name}</Text>
-            </View>
-          </TouchableOpacity>
-        )}
+        renderItem={renderCategoryItem}
       />
 
       {/* Lista de animais filtrada */}
