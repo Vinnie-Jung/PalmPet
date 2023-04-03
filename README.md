@@ -59,8 +59,11 @@ Também chamada de Home Page, essa é a tela principal da aplicação em que o u
 
 Imagem:
 
-<img src="./assets/img/ReadmeImages/home_page.jpg" alt="Tela principal." width="30%">
-<img src="./assets/img/ReadmeImages/category_page.jpg" alt="Tela principal com categoria selecionada." width="30%">
+<div style="display:flex">
+    <img src="./assets/img/ReadmeImages/home_page.jpg" alt="Tela principal." width="30%" style="padding:5">
+    <img src="./assets/img/ReadmeImages/category_page.jpg" alt="Tela principal com categoria selecionada." width="30%" style="padding:5">
+</div>
+
 
 ### 5. Tela de detalhamento
 
