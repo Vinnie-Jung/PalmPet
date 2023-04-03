@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, FlatList, TouchableOpacity, Image } from 'react-native';
+import { View, Text, FlatList, TouchableOpacity } from 'react-native';
 import animalData from '../../api/animals.json';
 import categoryData from '../../api/category.json';
 import styles from '../../styles/home';
-import { useNavigation } from '@react-navigation/native';
 import renderItem from './renderItem';
 
-
 export default function Home() {
-
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [filteredAnimals, setFilteredAnimals] = useState([]);
 

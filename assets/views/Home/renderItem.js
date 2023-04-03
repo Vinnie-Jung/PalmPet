@@ -5,7 +5,7 @@ import getItemCategory from './getItemCategory';
 
 // Renderização dos itens da lista
 const renderItem = ({ item }) => (
-    <TouchableOpacity onPress={() => navigation.navigate('Detail')}  style={styles.item}>
+    <TouchableOpacity onPress={() => navigation.navigate('Details')}  style={styles.item}>
       <View style={styles.itemContainer}>
         <Image source={{ uri: item.img }} style={styles.itemImage}/>
         <View sytle = {styles.infoContainer} >

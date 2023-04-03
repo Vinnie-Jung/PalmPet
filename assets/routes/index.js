@@ -3,6 +3,7 @@ import Welcome from '../views/Welcome';
 import LogIn from '../views/LogIn';
 import SignUp from '../views/SignUp';
 import Home from '../views/Home';
+import Details from '../views/Details';
 
 /*
  *  +-----------------------------------+
@@ -36,6 +37,12 @@ export default function Routes() {
             <Stack.Screen
                 name = 'Home'
                 component = {Home}
+                options = {{ headerShown: false }}
+            />
+
+            <Stack.Screen
+                name = 'Details'
+                component = {Details}
                 options = {{ headerShown: false }}
             />
         </Stack.Navigator>
