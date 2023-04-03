@@ -159,3 +159,11 @@ Listadas abaixo todas as anotações de atividades registradas:
 40. Criada a página Details.
 
 41. Estilização de Details adicionada na pasta styles.
+
+## Fontes de pesquisa
+
+- [ChatGPT](https://openai.com/blog/chatgpt)
+- [Documentação do Expo](https://docs.expo.dev/)
+- [Documentação do Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Documentação do React Native]( https://reactnative.dev/docs/getting-started)
+- [Youtube](https://www.youtube.com/)
