@@ -67,3 +67,11 @@
 33. Função de validação de login modularizada para o arquivo handleLogin.js.
 
 34. Validação de admin modularizada para adminVal.js.
+
+35. Iniciado o desenvolvimento da tela de Home Page.
+
+36. Adicionado um arquivo de estilização para a tela de Home.
+
+37. Criados dois arquivos .json para simular um banco de dados/API.
+
+38. Adicionados alguns ícones placeholders para a propriedade "img" das categorias.
