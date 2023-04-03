@@ -3,7 +3,7 @@
 <p align="center">Um aplicativo de adoção de animais em React Native.</h1>
 
 
-# Índice
+## Índice
 
 1. [Sobre](#sobre)
 2. [Características do projeto](#características-do-projeto)
